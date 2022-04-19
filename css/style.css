@@ -1,0 +1,68 @@
+/*---------*/
+/* General */
+/*---------*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    min-width: 250px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.v-align {
+    align-items: center;
+}
+
+.h-align {
+    justify-content: center;
+}
+
+
+/*--------*/
+/* Header */
+/*--------*/
+
+header {
+    background-color: #FF6800;
+    color: #ffffff;
+}
+
+.header-col {
+    min-width: 200px;
+    height: 50px;
+}
+
+.header-logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.header-col img {
+    width: 125px;
+}
+
+.header-link {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header-icons {
+    justify-content: flex-end;
+}
+
+.header-icons i {
+    padding-left: 7px;
+}
